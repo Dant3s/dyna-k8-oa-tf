@@ -2,7 +2,7 @@
 
 This is a simple terraform configuration, to deploy the OA in FS mode using the helm chart Operator and the CR.
 
-# Requirments
+# Requirements
 
 This works with 3 Providers:
 
@@ -18,6 +18,6 @@ This works with 3 Providers:
 
 # Disclaimer
 
-This is just to test the deployment via TF of the HC. Needs to be extendend/hacked to allow more use cases.
+This is just to test the deployment via TF of the HC. Needs to be extendend/hacked to allow more use cases and makeing it for fun.
 
 Cheers.
