@@ -22,9 +22,13 @@ In case of addition Configuration, the Helm Chart Default values.yaml has a good
 This use the following Variables:
 
 dt_api_token         = ApiToken
+
 dt_paas_token        = PaaS Token
+
 dt_api_url           = Enfiroment /api url 
+
 dt_dynakube_resource = For DynaKube Resource Should be https://github.com/Dynatrace/dynatrace-operator/releases/download/v0.4.2/dynatrace.com_dynakubes.yaml also in the documentation.
+
 k8context            = For K8 Cluster Context
 
 This was NOT tested with the Api Access Token with Api & PaaS.
