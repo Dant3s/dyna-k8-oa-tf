@@ -17,3 +17,7 @@ variable "dt_dynakube_resource" {
 variable "k8context" {
   type = string  
 }
+
+variable "k8configpath" {
+  type = string  
+}

@@ -31,6 +31,8 @@ dt_dynakube_resource = For DynaKube Resource Should be https://github.com/Dynatr
 
 k8context            = For K8 Cluster Context
 
+k8configpath         = For K8 config file (ex ~/.kube/config)
+
 This was NOT tested with the Api Access Token with Api & PaaS.
 
 # Disclaimer

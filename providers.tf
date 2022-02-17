@@ -13,13 +13,13 @@ terraform {
 }
 
 provider "kubectl" {
-  config_path    = "~/.kube/config"
+  config_path    = var.k8configpath
   config_context = var.k8context
 }
 
 provider "helm" {
   kubernetes {
-    config_path    = "~/.kube/config"
+    config_path    = var.k8configpath
     config_context = var.k8context
   }
 }
