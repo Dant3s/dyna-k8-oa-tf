@@ -13,3 +13,7 @@ variable "dt_paas_token" {
 variable "dt_dynakube_resource" {
   type = string
 }
+
+variable "k8context" {
+  type = string  
+}
