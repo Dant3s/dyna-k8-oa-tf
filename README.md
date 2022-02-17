@@ -18,6 +18,8 @@ This works with 3 Providers:
 
 # Disclaimer
 
-This is just to test the deployment via TF of the HC. Needs to be extendend/hacked to allow more use cases and makeing it for fun.
+This is just to test the deployment via TF of the HC. Needs to be extendend/hacked to allow more use cases.
+
+Creating it just for fun.
 
 Cheers.
