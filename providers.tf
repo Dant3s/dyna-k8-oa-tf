@@ -1,10 +1,10 @@
 terraform {
   required_providers {
     kubectl = {
-      source  = "gavinbunney/kubectl"
+      source = "gavinbunney/kubectl"
     }
     helm = {
-      source  = "hashicorp/helm"
+      source = "hashicorp/helm"
     }
     http = {
       source = "hashicorp/http"
