@@ -33,6 +33,8 @@ k8context            = For K8 Cluster Context
 
 k8configpath         = For K8 config file (ex ~/.kube/config)
 
+dynakubeName         = Name of resource(default to dynakube) 
+
 This was NOT tested with the Api Access Token with Api & PaaS.
 
 # Disclaimer
