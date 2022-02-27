@@ -23,6 +23,6 @@ variable "k8configpath" {
 }
 
 variable "dynakubeName" {
-  type = string
+  type    = string
   default = "dynakube"
 }
