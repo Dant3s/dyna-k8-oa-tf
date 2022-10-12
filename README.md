@@ -19,23 +19,24 @@ In case of addition Configuration, the Helm Chart Default values.yaml has a good
 
 # Vars
 
-This use the following Variables:
 
-dt_api_token         = ApiToken
+dt_dynakube_resource_def = For DynaKube Resource
 
-dt_paas_token        = PaaS Token
-
-dt_api_url           = Enfiroment /api url 
-
-dt_dynakube_resource = For DynaKube Resource Should be https://github.com/Dynatrace/dynatrace-operator/releases/download/v0.4.2/dynatrace.com_dynakubes.yaml also in the documentation.
+dt_chart             = For Chart Definition.
 
 k8context            = For K8 Cluster Context
 
 k8configpath         = For K8 config file (ex ~/.kube/config)
 
-dynakubeName         = Name of resource(default to dynakube) 
+This was last tested with 0.8.2 and crd for 0.9.0 with Auth token ff.
 
-This was NOT tested with the Api Access Token with Api & PaaS.
+Simple Usage/testing:
+
+Have in dir:
+
+*   dynakube.yaml -> full definition of crd
+*   terraform.tfvars -> definition of dt_chart, dt_dynakube_resource_def, k8context and k8configpath. 
+
 
 # Disclaimer
 

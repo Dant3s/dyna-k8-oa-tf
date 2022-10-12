@@ -5,6 +5,10 @@
 *.tfstate
 *.tfstate.*
 
+# yaml
+*.yaml.*
+*.yaml
+
 # Crash log files
 crash.log
 

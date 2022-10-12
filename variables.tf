@@ -1,16 +1,8 @@
-variable "dt_api_url" {
+variable "dt_chart" {
   type = string
 }
 
-variable "dt_api_token" {
-  type = string
-}
-
-variable "dt_paas_token" {
-  type = string
-}
-
-variable "dt_dynakube_resource" {
+variable "dt_dynakube_resource_def" {
   type = string
 }
 
@@ -20,9 +12,4 @@ variable "k8context" {
 
 variable "k8configpath" {
   type = string
-}
-
-variable "dynakubeName" {
-  type    = string
-  default = "dynakube"
 }
